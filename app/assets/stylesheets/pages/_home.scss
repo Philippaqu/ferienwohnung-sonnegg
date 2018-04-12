@@ -1,0 +1,54 @@
+// Specific CSS for your home-page
+.text {
+  color: gray;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.text-sm{
+  color: gray;
+  font-size: 15px;
+}
+
+.overview-section{
+  height: 700px;
+  width: 280px;
+}
+
+.picture-header{
+  color: gray;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture{
+  height: 180px;
+  width: 280px;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+}
+
+#home-bedroom-image{
+  background-image:  linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 50%), image-url('/assets/home-bedroom.jpg');
+  background-size: 100%;
+}
+
+#home-garden-image{
+  background-image:  linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 50%), image-url('/assets/home-garden.jpg');
+  background-size: 100%;
+}
+
+#home-pool-image{
+  background-image:  linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 50%), image-url('/assets/home-pool.jpg');
+  background-size: 100%;
+}
+
+#home-tennis-image{
+  background-image:  linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 50%), image-url('/assets/home-tennis.jpg');
+  background-size: 100%;
+}
