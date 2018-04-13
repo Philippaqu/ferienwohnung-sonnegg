@@ -1,0 +1,38 @@
+.card{
+  margin-top: 50px;
+  box-shadow: 2px 2px 3px #D1D1D1;
+  width: 400px;
+  border: 0.3px solid #F2F2F2
+
+}
+
+.card-head{
+  margin: 20px;
+  height: 60px;
+}
+
+.card-name{
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 20px;
+  font-size: 18px;
+  color: gray;
+}
+
+.card-date{
+  margin-right:10px;
+  margin-left: 10px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: gray;
+}
+
+.card-body{
+  margin: 20px;
+}
+
+.card-text{
+  font-weight: lighter;
+  line-height: 26px;
+}

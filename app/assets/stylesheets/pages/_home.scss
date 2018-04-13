@@ -26,9 +26,16 @@
   font-weight: bold;
 }
 
+// Flexbox
 .space-between{
   display: flex;
   justify-content: space-between;
+}
+
+.column-space-around{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .picture{

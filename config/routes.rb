@@ -5,4 +5,7 @@
     get 'pages/experience'
     get 'pages/pictures'
     get 'pages/reservation'
+
+    resources :reviews, only: [:create, :new, :index]
+
   end
