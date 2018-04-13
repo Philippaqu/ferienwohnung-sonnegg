@@ -1,0 +1,19 @@
+<% @reviews = Review.all %>
+<% @review_array = @reviews.sample(3) %>
+<% @review_array.each do |review| %>
+<div class="card">
+  <div class="card-head column-space-around">
+    <div class="card-name">
+      <%= review.name %>
+    </div>
+    <div class="card-date">
+      <%= review.date %>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="card-text text-sm">
+      "<%= review.text %>"
+    </div>
+  </div>
+</div>
+<% end %>
